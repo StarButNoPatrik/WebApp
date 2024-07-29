@@ -15,6 +15,8 @@ WORKDIR /app
 # Copy the current directory contents into the container at /app
 COPY . /app
 
+RUN chmod 777 .
+
 # Expose the port that Streamlit will run on
 EXPOSE 8501
 
