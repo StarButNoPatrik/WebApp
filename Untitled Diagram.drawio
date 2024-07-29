@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.5">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1050" dy="522" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="160" />
+              <mxPoint x="221" y="160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="GitHub (SCM)" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="160" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jObMaKEJ7wIPlFMldts4-8" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="155" y="170" width="130" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="jObMaKEJ7wIPlFMldts4-5" value="&#xa;   - Checkout&#xa;   - Build&#xa;   - Test&#xa;   - Push&#xa;   - Pull&#xa;   - Run&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jObMaKEJ7wIPlFMldts4-8">
+          <mxGeometry x="5" y="50" width="120" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="jObMaKEJ7wIPlFMldts4-6" value="Jenkins (CI Tool)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jObMaKEJ7wIPlFMldts4-8">
+          <mxGeometry x="35" y="10" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jObMaKEJ7wIPlFMldts4-9" value="" style="swimlane;startSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="152" y="388" width="130" height="122" as="geometry" />
+        </mxCell>
+        <mxCell id="jObMaKEJ7wIPlFMldts4-10" value="&amp;nbsp;Docker Hub" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="jObMaKEJ7wIPlFMldts4-9">
+          <mxGeometry x="5" y="50" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="jObMaKEJ7wIPlFMldts4-11" value="Docker (Containerization)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jObMaKEJ7wIPlFMldts4-9">
+          <mxGeometry x="30" y="10" width="65" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jObMaKEJ7wIPlFMldts4-12" value="&amp;nbsp;Deployment Server/Host&amp;nbsp; (Application Runtime)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="155" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jObMaKEJ7wIPlFMldts4-14" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jObMaKEJ7wIPlFMldts4-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="219" y="360" as="sourcePoint" />
+            <mxPoint x="219" y="388" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="378" />
+              <mxPoint x="219" y="378" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jObMaKEJ7wIPlFMldts4-15" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="jObMaKEJ7wIPlFMldts4-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="520" as="sourcePoint" />
+            <mxPoint x="217" y="555" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="217" y="545" />
+              <mxPoint x="218" y="545" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
