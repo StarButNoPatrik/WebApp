@@ -19,4 +19,4 @@ COPY . /app
 EXPOSE 8501
 
 # Run the application
-CMD ["streamlit", "run", "./app/helloWorld.py"]
+CMD ["streamlit", "run", "./helloWorld.py"]
