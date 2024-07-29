@@ -21,4 +21,4 @@ RUN chmod 777 .
 EXPOSE 8501
 
 # Run the application
-CMD ["streamlit", "run", "./helloWorld.py"]
+CMD ["streamlit", "run", "./helloworld.py"]
