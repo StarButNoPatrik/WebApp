@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title('My Sample Application !!')
+st.title('My Sample Application !!-demo')
 
 name = st.text_input("Enter your name:")
 
